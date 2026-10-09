@@ -231,3 +231,72 @@ body {
     font-size: 14px;
     line-height: 1.5;
 }
+
+/* contact */
+/* Contact Section */
+.hero-contact {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    max-width: 100%;
+    color: white;
+}
+
+.hero-contact h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.hero-contact p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+/* Form */
+.hero-contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Labels */
+.hero-contact label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.hero-contact input,
+.hero-contact textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #070000;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.hero-contact input::placeholder,
+.hero-contact textarea::placeholder {
+    color: #ddd;
+}
+
+.hero-contact textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.hero-contact button {
+    background-color: #0a7358;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+}
