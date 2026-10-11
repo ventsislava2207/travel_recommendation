@@ -73,7 +73,9 @@ function searchRecommendation() {
 function clearResults() {
     const resultDiv = document.getElementById("resultDiv");
     const heroContent = document.querySelector(".hero-content");
+    const input = document.getElementById("searchInput");
 
+    input.value = "";
     resultDiv.innerHTML = "";
     heroContent.style.display = "block";
     heroContent.style.minWidth = "60%";
