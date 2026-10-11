@@ -70,4 +70,14 @@ function searchRecommendation() {
         });
 }
 
+function clearResults() {
+    const resultDiv = document.getElementById("resultDiv");
+    const heroContent = document.querySelector(".hero-content");
+
+    resultDiv.innerHTML = "";
+    heroContent.style.display = "block";
+    heroContent.style.minWidth = "60%";
+}
+
 btnSearch.addEventListener("click", searchRecommendation);
+btnClear.addEventListener("click", clearResults);

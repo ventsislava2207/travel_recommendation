@@ -112,6 +112,7 @@ body {
 }
 
 .hero-content {
+    display: block;
     margin-top: 8%;
     margin-left: 40%;
     color: white;
